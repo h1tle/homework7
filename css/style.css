@@ -1,9 +1,10 @@
 @import url(./null.css);
 .navbar {
-  background: #333;
+  background: aqua;
 }
 .navbar .menu {
   display: flex;
+  justify-content: center;
 }
 .navbar .menu .menu-item {
   position: relative;
@@ -11,11 +12,11 @@
 .navbar .menu .menu-item a {
   display: block;
   padding: 10px 15px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 .navbar .menu .menu-item a:hover {
-  background: #333;
+  background: aqua;
 }
 .navbar .menu .menu-item:hover > .submenu {
   display: block;
@@ -25,7 +26,7 @@
   position: absolute;
   left: 0;
   top: 100%;
-  background: #444;
+  background: aqua;
   min-width: 150px;
 }
 .navbar .menu .menu-item .submenu .submenu-item {
@@ -35,7 +36,7 @@
   padding: 10px 15px;
 }
 .navbar .menu .menu-item .submenu .submenu-item a:hover {
-  background: #444;
+  background: aqua;
 }
 .navbar .menu .menu-item .submenu .submenu-item:hover > .submenu {
   display: block;
