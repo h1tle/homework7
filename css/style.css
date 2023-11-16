@@ -101,16 +101,16 @@ h6 {
   margin: 0px 0px 0px 10px;
 }
 .navbar .menu .menu-item:hover {
-  background-color: plum;
+  background-color: yellow;
 }
 .navbar .menu .menu-item a {
   display: block;
   padding: 10px 15px;
   color: black;
 }
-
 .navbar .menu .menu-item:hover > .submenu {
   display: block;
+  width: 100%;
 }
 .navbar .menu .menu-item .submenu {
   display: none;
@@ -121,6 +121,18 @@ h6 {
   min-width: 150px;
   border: 1px solid #000;
   border-radius: 5px;
+  padding: 5px;
+}
+.navbar .menu .menu-item .submenu .has-submenu ul {
+  padding: 10px;
+  margin: 0px 0px 0px -10px;
+}
+.navbar .menu .menu-item .submenu li {
+  display: block;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 0px 0px 10px 0px;
 }
 .navbar .menu .menu-item .submenu .submenu-item:hover > .submenu {
   display: block;
@@ -128,5 +140,5 @@ h6 {
   left: 100%;
 } /*# sourceMappingURL=style.css.map */
 .has-submenu li:hover {
-  background-color: yellow;
+  background-color: plum;
 }
