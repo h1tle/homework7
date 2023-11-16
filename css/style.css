@@ -100,6 +100,9 @@ h6 {
   border-radius: 5px;
   margin: 0px 0px 0px 10px;
 }
+.navbar .menu .menu-item:hover {
+  background-color: plum;
+}
 .navbar .menu .menu-item a {
   display: block;
   padding: 10px 15px;
